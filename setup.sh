@@ -26,9 +26,22 @@ az extension add -n ml -y
 
 ## For backward compatibility - running on old subscription
 # <set_variables>
+## =======================================================
+## MDC:  My specific data on AZure
+## 
+## Provide your subscription ID as shown in the above screenshot
+## subscription_id="bc053bfe-d0db-4441-a3c5-b72dd779b219"
+## Provide your Resource Group as shown in the above screenshot
+## resource_group_name="BONINC-DSAZURE-LEARN" 
+## Worksapace 
+## workspace_name="DSAZURE_LEARN"
+## =======================================================
+## Linkage between Azure - GitHub
+## =======================================================
 GROUP="BONINC-DSAZURE-LEARN"
-LOCATION="easus2"
-WORKSPACE="azureml"
+LOCATION="easus"
+## Azure workspace
+WORKSPACE="DSAZURE_LEARN"
 # </set_variables>
 
 # If RESOURCE_GROUP_NAME is empty, the az configure is pending.
