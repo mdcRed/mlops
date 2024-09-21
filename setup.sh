@@ -26,8 +26,8 @@ az extension add -n ml -y
 
 ## For backward compatibility - running on old subscription
 # <set_variables>
-GROUP="testml"
-LOCATION="eastus"
+GROUP="BONINC-DSAZURE-LEARN"
+LOCATION="easus2"
 WORKSPACE="azureml"
 # </set_variables>
 
