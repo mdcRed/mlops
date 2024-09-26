@@ -2,7 +2,8 @@ name: cli-jobs-pipelines-autom-mpg
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0/4 * * *"
+    ## - cron: "0 0/4 * * *"
+    - cron: "0 0 0 29 2 1"
   push:
   pull_request:
     branches:
